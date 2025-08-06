@@ -1,0 +1,15 @@
+
+#spring.application.name=springboot_ssmp
+spring:
+  datasource:
+    driver-class-name: oracle.jdbc.OracleDriver
+    url: jdbc:oracle:thin:@//localhost:1521/orcl
+    username: system
+    password: Oracle8888
+    type: com.alibaba.druid.pool.DruidDataSource
+
+server:
+  port: 80
+mybatis:
+  configuration:
+    log-impl: org.apache.ibatis.logging.stdout.StdOutImpl
