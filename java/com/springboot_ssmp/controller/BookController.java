@@ -21,7 +21,7 @@ import com.springboot_ssmp.service.BookService;
 
 /*
  * @ 初めて編集
- * 
+ * @二回目の編集
  */
 @RestController
 @RequestMapping("/books")
